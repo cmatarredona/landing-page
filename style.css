@@ -1,0 +1,124 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+}
+.fakeImage{
+    width: 100px;
+    height: 100px;
+    border: 3px solid blue;
+    border-radius: 10%;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+}
+.menu{
+    display: flex;
+    gap: 16px;
+    list-style: none;    
+}
+.menu li a,.logo{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    font-size: 1.5em;
+}
+.cont{
+    max-width: 25%;
+}
+.description{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:30px;
+    color: gray;
+    padding-bottom: 50px;
+}
+.imagen{
+    width: 400px;
+}
+.titleWebsite{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+.signup{
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+.cuerpo{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title2{
+    text-align: center;
+    font-size: 30px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.card{
+    width: 100px;
+    text-align: center;
+}
+.msgRating{
+    background-color: #E5E7EB;
+    color:#1f2937;
+    font-weight: lighter;
+    font-style: italic;
+}
+.msgRating div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.txtlimited{
+    font-size: 30px;
+    width: 50%;
+}
+.autor{
+    font-size: 20px;
+    color: #1f2937;
+    font-weight: bold;
+    font-style: normal;
+    margin-left: 30%;
+    margin-top: -2%;
+}
+.lastAction{
+    padding: 20px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    width: 66%;
+}
+.bordeBlaco{
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 1em;
+}
+.footer{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    color: white;
+}
+.cuerpo>div{
+    margin: 30px 0;
+}
